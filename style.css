@@ -68,6 +68,9 @@ section{
     width: 45%;
     margin: auto;
     text-align: justify;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 25px;
 }
 
 #description::before{
@@ -85,7 +88,8 @@ section{
 
 
 section img{
-    width: 7%
+    width: 100px;
+    height: 250px;
 }
 
 

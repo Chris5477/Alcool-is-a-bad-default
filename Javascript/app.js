@@ -1,4 +1,4 @@
-import { getDataBeer } from "./PunkAPI.js";
+import { getDataBeer, numberPage } from "./PunkAPI.js";
 
-getDataBeer()
-.catch(err => console.log( "Votre requête a échoué ! Voici l'erreur : " +  err))    
+getDataBeer(numberPage)
+.catch(err => console.log( "La requête a échoué ! Voici l'erreur : " +  err))  
