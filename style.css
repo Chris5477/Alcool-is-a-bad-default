@@ -94,3 +94,31 @@ section img{
 
 
 
+@media screen and (max-width:798px) {
+    body, header, main, footer{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #present h2{
+        font-size: 20px;
+    
+    }
+
+    section img{
+        width: 60px;
+        height: 150px;
+    }
+
+    #description{
+        font-size: 12px;
+    }
+
+    #description::before, #description::after{
+        content: "";
+    }
+
+    
+
+
+}
